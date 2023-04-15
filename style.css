@@ -1,0 +1,126 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+body {
+    background: #ecedee url(https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+    color: #111;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75em;
+    font-size: 12px;
+}
+
+body {
+    line-height: 1;
+}
+
+.top-wrapper {
+    position: relative;
+    box-shadow: #ccc 0px -1px 6px;
+    width: 922px;
+    padding: 19px 19px 0 19px;
+    margin: 30px auto 0 auto;
+    overflow: hidden;
+    background: #f4f5f6;
+    border: 1px solid #fff;
+    border-bottom: none;
+    border-radius: 7px 7px 0 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(22, 16, 16);
+}
+.main-logo {
+    display: block;
+    float: left;
+    overflow: hidden;
+    padding: 5px 0 0 0;
+    margin: 0 0 20px 0;
+    border: 0;
+}
+/* main navigartion  */
+.main-navigation {
+    clear: both;
+    position: relative;
+    font-size: 1.3em;
+    overflow: hidden;
+    padding: 7px 0;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+}
+/* css to ul list  */
+.main-navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+/* css to list items  */
+.main-navigation ul li {
+    float: left;
+    padding: 3px 15px 4px;
+    margin: 0;
+}
+
+.main-container {
+    overflow: hidden;
+    padding: 10px 0 0 0;
+}
+
+.banner {
+    margin: 15px auto 10px auto;
+    border: none;
+}
+.homepage-box {
+    width: 62%;
+    border: #CCC 1px solid;
+    float: left;
+    margin: 5px 11px 13px 279px;
+    padding: 5px;
+    line-height: 1.5em;
+    border-radius: 5px;
+    height: 680px;
+    position: relative;
+}
+
+.home-intro-box {
+    background: #045b32 url(/_images/4edition/back-intro.jpg) repeat-x;
+    overflow: hidden;
+    color: #fff;
+    border-radius: 6px;
+    box-shadow: #ccc 0px 0px 6px;
+    padding: 28px 22px;
+}
+
+.home-intro-box h1 {
+    color: #bcd240;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.home-intro-box h2 {
+    color: #bcd240;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+h2,h1{
+    padding-top: 5px;
+}
+
+.home-intro-box p {
+    padding: 25px 0 0 0;
+    line-height: 16px;
+    font-size: medium;
+    padding: 4px;
+    padding-top: 6px;
+}
+
+.flow{
+    margin-left: 30px;
+}
+
+span{
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 2;
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #6ad378 url(https://media.istockphoto.com/id/1182446012/photo/dark-neo-mint-green-frame-grunge-old-pattern-background-abstract-concrete-cement-paper-cotton.jpg?s=612x612&w=0&k=20&c=-A2-5lbIYdMY9glBi0yKuispJ1t4IWUi7I5K8PEilQg=);
+}
+
+h1 {
+    font-size: 46px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 76px;
+}
+
+p{
+    margin-left: 79px;
+    font-size: 20px;
+}
+
+.flow{
+    display: block;
+  margin: 0 auto;
+}
+/* .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px auto;
+    max-width: 1000px;
+}
+.card {
+    width: 30%;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+} */
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 50px auto;
+	max-width: 1000px;
+}
+
+.card {
+	width: 45%; /* reduce the width of the cards to fit only two in a line */
+	margin-bottom: 30px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+.card img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+  }
+/* .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+} */
+.card img {
+    width: 100%;
+    /* height: auto; */
+    object-fit: cover;
+}
+.card h2 {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+
+
+
+

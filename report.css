@@ -1,0 +1,59 @@
+body {
+    background: #ecedee url(https://media.istockphoto.com/id/1067673410/photo/modern-grey-paint-limestone-texture-background-in-white-light-seam-home-wall-paper-back-flat.jpg?b=1&s=170667a&w=0&k=20&c=sdPMKIY_uo4hNsK4iXWWfmvGJERhY2DObW99tvcwSK8=);
+    color: #111;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75em;
+    font-size: 12px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+p{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 50px auto;
+	max-width: 1000px;
+}
+
+.card {
+	width: 45%; /* reduce the width of the cards to fit only two in a line */
+	margin-bottom: 50px;
+	/* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+	transition: box-shadow 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+.card img {
+    width: 507px;
+    height: 416px;
+    object-fit: cover;
+}
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: left;
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.flow{
+    display: block;
+  margin: 0 auto;
+}
